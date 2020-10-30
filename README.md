@@ -1,8 +1,8 @@
 # 自己的例子 
 ./bin/go-ycsb run tikv -P workloads/workloada -p tikv.pd="10.3.8.110:2379,10.3.9.228:2379" -p tikv.type=raw -p recordcount=10000000  -p operationcount=10000000 -p threadcount=100
 
-注: workloads/workloada里的update是先get再insert， 看过源码 
-    batchSize和batchInsert()有关 
+注: workloads/workloada里的update是先get再insert， 看过源码；  
+batchSize和batchInsert()有关；  
 
 # go-ycsb 
 
